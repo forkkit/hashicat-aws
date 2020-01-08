@@ -1,6 +1,6 @@
 module "vpc" {
   source  = "app.terraform.io/instruqt-circleci/vpc/aws"
-  version = "1.45.0"
+  version = "2.21.0"
   name = "my-vpc"
   cidr = "10.0.0.0/16"
 
