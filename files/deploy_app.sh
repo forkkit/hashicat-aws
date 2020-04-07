@@ -9,7 +9,7 @@ cat << EOM > /var/www/html/index.html
   <div style="width:800px;margin: 0 auto">
   <!-- BEGIN -->
   <center><img src="http://${PLACEHOLDER}/${WIDTH}/${HEIGHT}"></img></center>
-  <center><h2>WHEN GOOD CATS GO BAD</h2></center>
+  <center><h2>When Cats Attack - Next on HashiTV</h2></center>
   <center><img src="https://media.giphy.com/media/xUPGGL6QJSmDmqKs5G/giphy.gif"></img></center>
   <!-- END -->
   </div>
