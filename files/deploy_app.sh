@@ -6,8 +6,6 @@ cat << EOM > /var/www/html/index.html
 <html>
   <head><title>Meow!</title>
   <style>
-  HTML SCSS JSResult
-EDIT ON
 @import url(https://fonts.googleapis.com/css?family=Fjalla+One);
 
 \$background: linear-gradient(to bottom, #405166 0%,#656f6f 100%);
@@ -120,9 +118,8 @@ function animation() {
 }
 </script>
   </head>
-  <body>
-  <div style="width:800px;margin: 0 auto">
 
+  <body>
   <!-- BEGIN -->
   <center><img src="http://${PLACEHOLDER}/${WIDTH}/${HEIGHT}"></img></center>
   <center><h2>Meow World!</h2></center>
@@ -137,7 +134,6 @@ function animation() {
 </section>
   <!-- END -->
 
-  </div>
   </body>
 </html>
 EOM
